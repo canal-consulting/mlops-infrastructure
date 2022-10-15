@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: mlops-infrastructure
-  namespace: infrastructure
   title: ML Ops Infrastructure
   description: |
     Deployed infrastructure for ML Ops
@@ -11,5 +10,5 @@ metadata:
     github.com/project-slug: canal-consulting/mlops-infrastructure
 spec:
   domain: infrastructure
-  owner: ml-ops
+  owner: mlops
 
