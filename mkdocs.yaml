@@ -1,0 +1,8 @@
+site_name: "ML Ops Infrastructure"
+site_description: "Deployed Infrastructure for ML Ops"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

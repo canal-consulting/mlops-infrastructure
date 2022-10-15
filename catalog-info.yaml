@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mlops-infrastructure
+  description: |
+    Deployed infrastructure for ML Ops
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: canal-consulting/mlops-infrastructure
+spec:
+  type: infrastructure
+  owner: ml-ops
+  lifecycle: experimental
+  hasPart:
+    - component:eventbridge-discovery
